@@ -1,0 +1,66 @@
+{
+  "id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in maximerollandsauvage/Henri-IIIF project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 512,
+    "id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou/canvas/",
+    "label" : {
+      "none" : [ "Anjou" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 25
+            }, {
+              "width" : 32,
+              "height" : 49
+            }, {
+              "width" : 64,
+              "height" : 97
+            }, {
+              "width" : 128,
+              "height" : 193
+            }, {
+              "width" : 256,
+              "height" : 385
+            }, {
+              "width" : 512,
+              "height" : 769
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 512,
+            "@id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 769
+          } ],
+          "format" : "image/jpeg",
+          "width" : 512,
+          "id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 769
+        },
+        "target" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou/canvas/"
+      } ]
+    } ],
+    "height" : 769
+  } ]
+}
