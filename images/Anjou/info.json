@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 16,
+    "height" : 25
+  }, {
+    "width" : 32,
+    "height" : 49
+  }, {
+    "width" : 64,
+    "height" : 97
+  }, {
+    "width" : 128,
+    "height" : 193
+  }, {
+    "width" : 256,
+    "height" : 385
+  }, {
+    "width" : 512,
+    "height" : 769
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 512,
+  "@id" : "https://maximerollandsauvage.github.io/Henri IIIF/images/Anjou",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 769
+}
